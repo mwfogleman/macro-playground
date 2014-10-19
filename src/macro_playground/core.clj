@@ -3,7 +3,7 @@
 
 ;; Adapted from
 ;; http://letoverlambda.com/index.cl/guest/chap3.html#sec_2
-(defmacro unit-of-time-macro
+(defmacro unit-of-time
   "Produces a unit of time in seconds, given a VALUE and a UNIT."
   [value unit]
   `(* ~value
