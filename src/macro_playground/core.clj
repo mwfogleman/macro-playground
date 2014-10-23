@@ -18,8 +18,7 @@
 
 ;; How would I produce a version that could handle a call like this?:
 ;; (unit-of-time 5 d 1 h 3 s)
-;; Multi-arity macros are reportedly possible, but neither brave nor true
-;; So what's good?
+;; Multi-arity macros?
 
 (defn -main
   "I don't do a whole lot ... yet."
