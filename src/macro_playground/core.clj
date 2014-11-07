@@ -19,3 +19,6 @@
 ;; (unit-of-time 5 d 1 h 3 s)
 ;; Multi-arity macros?
 
+(defmacro assoc-multi
+  [m path & pairs]
+  `(update-in ~m ~path assoc ~@pairs))
