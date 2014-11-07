@@ -1,5 +1,4 @@
-(ns macro-playground.core
-  (:gen-class))
+(ns macro-playground.core)
 
 ;; Adapted from
 ;; http://letoverlambda.com/index.cl/guest/chap3.html#sec_2
@@ -20,6 +19,3 @@
 ;; (unit-of-time 5 d 1 h 3 s)
 ;; Multi-arity macros?
 
-(defn -main
-  "I don't do a whole lot ... yet."
-  [& args])
